@@ -1,0 +1,400 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16055 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/won12/OneDrive/ë¬¸ì„œ/GitHub/Racing-Game-Project/Racing Game Project
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+65332
+Successfully changed project path to: C:/Users/won12/OneDrive/ë¬¸ì„œ/GitHub/Racing-Game-Project/Racing Game Project
+C:/Users/won12/OneDrive/ë¬¸ì„œ/GitHub/Racing-Game-Project/Racing Game Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40128] Host "[IP] 192.168.20.18 [Port] 0 [Flags] 2 [Guid] 4215925455 [EditorId] 4215925455 [Version] 1048832 [Id] WindowsEditor(7,À×ÇÊ¿øÀÌ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40128] Host "[IP] 192.168.20.18 [Port] 0 [Flags] 2 [Guid] 4215925455 [EditorId] 4215925455 [Version] 1048832 [Id] WindowsEditor(7,À×ÇÊ¿øÀÌ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 69.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/won12/OneDrive/ë¬¸ì„œ/GitHub/Racing-Game-Project/Racing Game Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3978 MB
+    Driver:   31.0.15.4609
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006551 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 400 ms
+Refreshing native plugins compatible for Editor in 69.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (492ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005498 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\won12\OneDrive\ë¬¸ì„œ\GitHub\Racing-Game-Project\Racing Game Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\won12\OneDrive\ë¬¸ì„œ\GitHub\Racing-Game-Project\Racing Game Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.4 KB). Loaded Objects now: 3534.
+Memory consumption went from 126.3 MB to 126.1 MB.
+Total: 2.748200 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.403700 ms  DeleteObjects: 0.066600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1663907.107111 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Pavement_7/Pavement_7_Height.png
+  artifactKey: Guid(00ad158c9ada0da48be4ec1c27480622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Pavement_7/Pavement_7_Height.png using Guid(00ad158c9ada0da48be4ec1c27480622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa00701c39a65a60d38a90f3b34869e5') in 0.136156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.213399 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Planks_Wood_16/Planks_Wood_16_Height.png
+  artifactKey: Guid(cdbdf7481024cd5498f5a04cf441028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Planks_Wood_16/Planks_Wood_16_Height.png using Guid(cdbdf7481024cd5498f5a04cf441028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434c14377e9e9a68c54282a69702e91c') in 0.040111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Planks_Wood_16/Planks_Wood_16_Roughness.png
+  artifactKey: Guid(19200b3c0133f3d4eab595a6b7dede7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Planks_Wood_16/Planks_Wood_16_Roughness.png using Guid(19200b3c0133f3d4eab595a6b7dede7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f523aa1ef93c5d6f63242e34b9af64') in 0.032509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.308893 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Rippled_Sand_2/Rippled_Sand_2_Height.png
+  artifactKey: Guid(96478242ecf35a446be7d176731fdf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Rippled_Sand_2/Rippled_Sand_2_Height.png using Guid(96478242ecf35a446be7d176731fdf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a32373bd3de4b200b1542ffba75765') in 0.082562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199808 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Rocky_Dirt_2/Rocky_Dirt_2_Height.png
+  artifactKey: Guid(57fa5203cf2f7c042bf81d6b8d57a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Rocky_Dirt_2/Rocky_Dirt_2_Height.png using Guid(57fa5203cf2f7c042bf81d6b8d57a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67ca1e5c996e3a721e73a95c4766406') in 0.029405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Rocky_Dirt_2/Rocky_Dirt_2_Mask.png
+  artifactKey: Guid(c1cc2d5e18d00364fb05a9531b26458f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Rocky_Dirt_2/Rocky_Dirt_2_Mask.png using Guid(c1cc2d5e18d00364fb05a9531b26458f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9729856ce408928ed4910b12ea77063f') in 0.046641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.390562 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Grass_37/Grass_37_Metallic.png
+  artifactKey: Guid(b139783913a7a1b47aca8f9876606d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Grass_37/Grass_37_Metallic.png using Guid(b139783913a7a1b47aca8f9876606d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42188c12f5e1bbe208ce2a529a0353b') in 0.077244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346441 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Marble_Surface_20/Marble_Surface_20_Metallic.png
+  artifactKey: Guid(9e4d6d1b392c644458328a9b1715d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Marble_Surface_20/Marble_Surface_20_Metallic.png using Guid(9e4d6d1b392c644458328a9b1715d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190fa68c2b7c2e5875f9fbbbc6b1d9a3') in 0.049442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Marble_Surface_20/Marble_Surface_20_Roughness.png
+  artifactKey: Guid(a4cee5b129443594ea6aeeda5f391216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Marble_Surface_20/Marble_Surface_20_Roughness.png using Guid(a4cee5b129443594ea6aeeda5f391216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7bfc345aa50609d9a0e67da0d8ceed') in 0.034306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.760142 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Underwater_Rock_Surface_3/Underwater_Rock_Surface_3_Height.png
+  artifactKey: Guid(2dbd59a3053335a44a0603cc0d48c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Underwater_Rock_Surface_3/Underwater_Rock_Surface_3_Height.png using Guid(2dbd59a3053335a44a0603cc0d48c562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a785c357bd3fdeb4221a7f27404d920') in 0.045494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Underwater_Rock_Surface_3/Underwater_Rock_Surface_3_Metallic.png
+  artifactKey: Guid(f7cf3a85d27e82c4f9ee9f659e1d0ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Underwater_Rock_Surface_3/Underwater_Rock_Surface_3_Metallic.png using Guid(f7cf3a85d27e82c4f9ee9f659e1d0ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d47e3f9973cbd4ebeae131dbe91d1d6') in 0.042340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.659202 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Wood_Wall_1/Wood_Wall_1_Height.png
+  artifactKey: Guid(3ac2c3ae8081ba848b3ec80ad42a3deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Wood_Wall_1/Wood_Wall_1_Height.png using Guid(3ac2c3ae8081ba848b3ec80ad42a3deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a499be3566a6f96112142a607c4ab44') in 0.092858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Wood_Wall_1/Wood_Wall_1_Roughness.png
+  artifactKey: Guid(235f46e036f4874469b957365dbfe07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Wood_Wall_1/Wood_Wall_1_Roughness.png using Guid(235f46e036f4874469b957365dbfe07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae65beaeafc38d2214469464a264706') in 0.034773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432805 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Water_6/Water_6_Height.png
+  artifactKey: Guid(31b31345c31ec4f499a945680e5862bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Water_6/Water_6_Height.png using Guid(31b31345c31ec4f499a945680e5862bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe6d38f3e420d57f1c4fe86e0088dfb') in 0.037356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Water_6/Water_6_Roughness.png
+  artifactKey: Guid(76856a408ba934b49abc992063be3dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Water_6/Water_6_Roughness.png using Guid(76856a408ba934b49abc992063be3dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330baa7a3023b17ac1ea5ee9d468dc19') in 0.039108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.678214 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Height.png
+  artifactKey: Guid(34a681fbeba2d34498e1c050e9aa14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Height.png using Guid(34a681fbeba2d34498e1c050e9aa14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e91259b5e79a71840cb7c5b8c965a8e') in 0.069909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Roughness.png
+  artifactKey: Guid(a2ef9a01c24def348b1783f0b88b004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Sandy_Rock_Surface_17/Sandy_Rock_Surface_17_Roughness.png using Guid(a2ef9a01c24def348b1783f0b88b004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40db8a38fe115af9d01c0e912de5cadf') in 0.050690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.258521 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Marble_Surface_20/Marble_Surface_20.terrainlayer
+  artifactKey: Guid(e54df845689ac8e44ad31ec8866c0140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Marble_Surface_20/Marble_Surface_20.terrainlayer using Guid(e54df845689ac8e44ad31ec8866c0140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161d95c7c3172968bc59d9645d6c249') in 0.072204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.759413 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Grass_37/Grass_37.terrainlayer
+  artifactKey: Guid(b92e9169436181d499fd8aa2d656ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Grass_37/Grass_37.terrainlayer using Guid(b92e9169436181d499fd8aa2d656ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44afc29535117a1c6829d3bffd38d2d2') in 0.065471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.009579 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21.terrainlayer
+  artifactKey: Guid(0cb4314793a649241aa06a4fb99cdc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Cliff_Rock_Surface_21/Cliff_Rock_Surface_21.terrainlayer using Guid(0cb4314793a649241aa06a4fb99cdc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cea50a77889899a6d1dbf34ea91e987') in 0.050929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/0. Asset/2. Texture/0. Environment/Textures/Cracked_Concrete_26/Cracked_Concrete_26.terrainlayer
+  artifactKey: Guid(c738084ff14eec24a8ccdac89a39745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/2. Texture/0. Environment/Textures/Cracked_Concrete_26/Cracked_Concrete_26.terrainlayer using Guid(c738084ff14eec24a8ccdac89a39745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bf6961453f0012f0d3c856ce082159') in 0.035667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.403742 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_BankLeft_TurnShort_Lanelines.prefab
+  artifactKey: Guid(4bb30299ce40846449d09e5154307162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_BankLeft_TurnShort_Lanelines.prefab using Guid(4bb30299ce40846449d09e5154307162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a86fd9f8e5569cf49a052af14dacb53') in 0.147550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_BankRight_Straight_Lanelines.prefab
+  artifactKey: Guid(3731372af0466f74499335bba51497d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_BankRight_Straight_Lanelines.prefab using Guid(3731372af0466f74499335bba51497d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c0ae008d9628d512927a9c50c528e') in 0.051442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_Ramp_Long_10m_Lanelines.prefab
+  artifactKey: Guid(0169f8aeb6515e04a91d39760be09758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_Ramp_Long_10m_Lanelines.prefab using Guid(0169f8aeb6515e04a91d39760be09758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b38f2eae606a6c04161a631e3def03') in 0.030711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_Ramp_5m_Lanelines.prefab
+  artifactKey: Guid(159fa31b4060a1a43a1355e0b7c8a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_Ramp_5m_Lanelines.prefab using Guid(159fa31b4060a1a43a1355e0b7c8a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631c71855f348de92a99929c38d7f6dc') in 0.024745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822583 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_StraightLong_Lanelines.prefab
+  artifactKey: Guid(dc722fc62d0936f40bd8ce7b40647b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_StraightLong_Lanelines.prefab using Guid(dc722fc62d0936f40bd8ce7b40647b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ae2d820dfa4de49f91b4822048b5f6') in 0.024846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151907 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_TurnLong_Lanelines.prefab
+  artifactKey: Guid(697929c848ba85c4a91afb0adce3e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_TurnLong_Lanelines.prefab using Guid(697929c848ba85c4a91afb0adce3e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b512dd110421ab72ed97d1fde4f8e0a') in 0.031016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052497 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_TurnShort_Lanelines.prefab
+  artifactKey: Guid(70a16e68cf05c0e4db081e8dad12ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_Lanelines/RTC_TurnShort_Lanelines.prefab using Guid(70a16e68cf05c0e4db081e8dad12ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d884c2bd0eb9af9213cc3645732dae2') in 0.027799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.973243 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_BankLeft_TurnShort.prefab
+  artifactKey: Guid(0fe01a3302575f545b0bc9045284593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_BankLeft_TurnShort.prefab using Guid(0fe01a3302575f545b0bc9045284593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8f7bbd8cd81340d818a016264fddfc') in 0.047808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_BankRight_Straight.prefab
+  artifactKey: Guid(3e565231fab307d48aedadef01c16385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_BankRight_Straight.prefab using Guid(3e565231fab307d48aedadef01c16385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c116e7f87ac1b486886bceab0cb5f47f') in 0.041256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_ChicaneS_Right.prefab
+  artifactKey: Guid(ba6c46774ab4e3f4b9bfe25d87ffb9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_ChicaneS_Right.prefab using Guid(ba6c46774ab4e3f4b9bfe25d87ffb9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e2b6675b7d2bd6d361cc3b3b8e7f8b') in 0.053212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_Ramp_5m.prefab
+  artifactKey: Guid(bcdd0a6e628ebcd42b554d9689eba716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_Ramp_5m.prefab using Guid(bcdd0a6e628ebcd42b554d9689eba716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c0b792bf9b32539b4b43faeacd6d42') in 0.045798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.971584 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_BankRight_Straight Variant.prefab
+  artifactKey: Guid(b2cc4d41a2ca944458a85f128e76cbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_BankRight_Straight Variant.prefab using Guid(b2cc4d41a2ca944458a85f128e76cbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e72a6fefeba3a6106f7753883561700') in 0.071517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_Long_10m Variant.prefab
+  artifactKey: Guid(66cffa5d0df423742853496a131bdd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_Long_10m Variant.prefab using Guid(66cffa5d0df423742853496a131bdd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f6bd196562a7cb240aedf233485e0') in 0.096430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_5m Variant.prefab
+  artifactKey: Guid(f616bc0efb32e954a96572cf3559939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_Ramp_5m Variant.prefab using Guid(f616bc0efb32e954a96572cf3559939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac6a51ce5bc1dfd9b2b9f19a1d59ae') in 0.067020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.743194 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_StraightShort Variant.prefab
+  artifactKey: Guid(6f0f9b2e06332944598aff53573a8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_StraightShort Variant.prefab using Guid(6f0f9b2e06332944598aff53573a8258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b9fcfc245c2488175f0682509df925') in 0.055739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.312807 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_TurnU Variant.prefab
+  artifactKey: Guid(b7b80d4402dcce0488c2d68702d32a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/TrackVariant/RTC_TurnU Variant.prefab using Guid(b7b80d4402dcce0488c2d68702d32a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e088f245a864548b176168e313ff177f') in 0.201006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.053567 seconds.
+  path: Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_StraightShort.prefab
+  artifactKey: Guid(b8bc97ff711f08549be76024225f0d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0. Asset/1. Track/Prefabs/RTC_TrackParts/RTC_StraightShort.prefab using Guid(b8bc97ff711f08549be76024225f0d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee2d584c6569c169a3a5c20084e51a2') in 0.054133 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
