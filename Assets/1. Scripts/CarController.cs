@@ -24,6 +24,7 @@ public class CarController : MonoBehaviour
     [Header("# Car Drive Var")]
     [SerializeField] private int maxAcceleration;
     [SerializeField] private int brakeAcceleration;
+    public int boosterSpeed = 0;
 
     [SerializeField] private int maxSteerAngle;
     [SerializeField] private float steerSensitivity;
@@ -83,7 +84,8 @@ public class CarController : MonoBehaviour
     {
         foreach (var wheel in wheels)
         {
-            wheel.wheelCollider.motorTorque = inputVec.z * maxAcceleration;
+            wheel.wheelCollider.motorTorque = inputVec.z * maxAcceleration + boosterSpeed;
+            Debug.Log(wheel.wheelCollider.motorTorque);
         }    
     }
 
@@ -110,4 +112,17 @@ public class CarController : MonoBehaviour
         }
     }
     #endregion
+
+    public void BoosterInit(int plusSpeed)
+    {
+        StartCoroutine(Booster(plusSpeed));
+    }
+    
+    private IEnumerator Booster(int plusSpeed)
+    {
+        boosterSpeed = plusSpeed;
+        yield return new WaitForSeconds(0.5f);
+        boosterSpeed = 0;
+    }
+
 }
